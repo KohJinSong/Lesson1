@@ -8,9 +8,21 @@ public class NewComponent : MonoBehaviour
         
     }
 
+    Vector3 valueToMove = new Vector3(0.005f,0,0.01f);
+
     // Update is called once per frame
     void Update()
     {
-        print("I new guy");
+        NewMethod();
+    }
+
+    private void NewMethod()
+    {
+        transform.localPosition += valueToMove;
+        transform.localScale += valueToMove;
+
+        print(transform.localPosition.y);
+        print(transform.localPosition.x);
+        print(transform.localPosition.z);
     }
 }
