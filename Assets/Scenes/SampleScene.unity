@@ -246,6 +246,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24ac1714e8c902d488c5784a0f3f56fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewComponent
+  rotateSpeed: 180
 --- !u!1 &172070372
 GameObject:
   m_ObjectHideFlags: 0
@@ -385,6 +386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24ac1714e8c902d488c5784a0f3f56fb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewComponent
+  rotateSpeed: 180
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -472,7 +474,7 @@ Transform:
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.25, y: 1, z: -13.918}
+  m_LocalPosition: {x: -8.19, y: 14.5, z: -23.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
