@@ -1,17 +1,16 @@
 using UnityEngine;
 
-public class hmm : MonoBehaviour
+public class NewComponent : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        print("Hello world");
-
+        
     }
 
     // Update is called once per frame
     void Update()
     {
-        print("testing");
+        
     }
 }
